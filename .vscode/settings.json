@@ -1,0 +1,11 @@
+{
+"emeraldwalk.runonsave": {
+    "commands": [
+        {
+            "match": ".*ts",
+            "isAsync": false,
+            "cmd": "dprint fmt ${file}"
+        },
+    ]
+}
+}
